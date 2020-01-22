@@ -1,0 +1,54 @@
+
+body {
+  margin: auto 0;
+  box-sizing: border-box;
+
+}
+
+.header {
+  background-color: blue;
+  color: white;
+  height: 200px;
+  width: 100%;
+  justify-content: center;
+  font-size: 100px;
+  margin: 0 auto;
+}
+
+form {
+  width: 80%;
+  border: 1px solid grey;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  border: 2px solid block;
+  font-size: 30px;
+  height: 80px;
+  color: grey;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 10px;
+}
+
+#message {
+  display: block;
+  border: 2px solid grey;
+  font-size: 30px;
+  margin-top: 20px;
+  color: grey;
+  height: 80px;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.submit-btn {
+  display: block;
+  border: 1px solid grey;
+  width: 100%;
+  height: 80px;
+ 
+}
+
