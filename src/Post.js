@@ -9,7 +9,7 @@ function Post(props) {
       <Avatar />
       <div>
         <PostHeader timing={props.time}/>
-        <Message />
+        <Message comment={props.usermessage}/>
       </div>
     </div>
   )

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Message() {
+function Message(props) {
   return (
     <div className='message'>
-      Repellendus sed obcaecati. Possimus nisi animi dolorem omnis mollitia.
+      {props.comment}
     </div>
   )
 }
