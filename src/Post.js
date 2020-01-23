@@ -1,11 +1,16 @@
 import React from 'react';
+import PostHeader from './PostHeader';
+import Avatar from './Avatar';
+import Message from './Message';
 
-function Post() {
+function Post(props) {
   return (
-    <div>
-      <PostHeader />
+    <div className='timeline'>
       <Avatar />
-      <Message />
+      <div>
+        <PostHeader timing={props.time}/>
+        <Message />
+      </div>
     </div>
   )
 }

@@ -64,11 +64,17 @@ label {
 }
 
 .avatar {
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
   background-color: grey;
   margin-left: 100px;
   margin-right: 50px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .time {

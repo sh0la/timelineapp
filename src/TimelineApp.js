@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import StatusForm from './StatusForm';
+import HistoryTimeline from './HistoryTimeline';
 
 
 
@@ -13,6 +15,8 @@ class TimelineApp extends Component {
     return (
       <div>
         <Header />
+        <StatusForm />
+        <HistoryTimeline />
       </div>
     )
   }

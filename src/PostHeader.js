@@ -1,9 +1,9 @@
 import React from 'react';
 
-function PostHeader() {
+function PostHeader(props) {
   return (
     <div className='time'>
-      Just Now
+      {props.timing}
     </div>
   )
 }
